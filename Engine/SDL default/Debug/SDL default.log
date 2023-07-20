@@ -1,0 +1,2 @@
+﻿J:\Visual Studio\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SDL exercise 1.vcxproj, SDL tutorial 2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SDL default.vcxproj -> J:\Game-Engine-Development\S210438 Submission\Engine\Debug\Engine.exe

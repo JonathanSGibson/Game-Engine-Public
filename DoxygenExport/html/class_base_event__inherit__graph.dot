@@ -1,0 +1,25 @@
+digraph "BaseEvent"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="BaseEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="KeyInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_key_input.html",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="DownInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_down_input.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="EscapeInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_escape_input.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="JumpInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_jump_input.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="LeftInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_left_input.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LMBInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_l_m_b_input.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RightInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_right_input.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="UpInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_up_input.html",tooltip=" "];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QuitEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_quit_event.html",tooltip=" "];
+}

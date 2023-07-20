@@ -1,0 +1,21 @@
+digraph "BaseScript"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="BaseScript",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="BaseComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_base_component.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="EnemyScript",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_enemy_script.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GUIButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_u_i_button.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NextSceneButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_next_scene_button.html",tooltip=" "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QuitButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_quit_button.html",tooltip=" "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="PlayerScript",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_player_script.html",tooltip=" "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QuitListener",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_quit_listener.html",tooltip=" "];
+}
